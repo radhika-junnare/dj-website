@@ -6,7 +6,7 @@ export default function About() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid md:grid-cols-3 gap-12 items-start">
           {/* Col 1: photo + quick profile */}
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-6 items-center md:items-stretch w-full">
             <div className="flex flex-col items-center gap-4">
               <div className="relative w-56 h-56 rounded-full overflow-hidden ring-4 ring-amber-400 ring-offset-4 ring-offset-white">
                 <Image
@@ -25,7 +25,7 @@ export default function About() {
             </div>
 
             {/* Quick Profile */}
-            <div className="bg-slate-50 rounded-2xl p-8 border border-slate-100">
+            <div className="bg-slate-50 rounded-2xl p-8 border border-slate-100 w-full">
             <h3 className="text-slate-900 font-semibold text-lg mb-6">Quick Profile</h3>
             <ul className="space-y-4">
               {[

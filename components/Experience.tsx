@@ -88,7 +88,7 @@ export default function Experience() {
           <h2 className="text-4xl font-bold text-slate-900">Professional Experience</h2>
         </div>
 
-        <div className="relative pl-6 border-l-2 border-slate-200 space-y-10">
+        <div className="relative pl-9 border-l-2 border-slate-200 space-y-10">
           {experiences.map((exp) => (
             <div key={exp.company} className="relative">
               {/* Timeline dot */}
