@@ -46,17 +46,17 @@ export default function Hero() {
         </div>
 
         {/* Key stats */}
-        <div className="mt-16 grid grid-cols-3 gap-6 max-w-md mx-auto">
+        <div className="mt-16 grid grid-cols-3 gap-2 sm:gap-6 max-w-md mx-auto">
           <div className="text-center">
-            <p className="text-3xl font-bold text-amber-400">25+</p>
+            <p className="text-2xl sm:text-3xl font-bold text-amber-400">25+</p>
             <p className="text-slate-400 text-xs mt-1 tracking-wide uppercase">Years Experience</p>
           </div>
           <div className="text-center border-x border-slate-700">
-            <p className="text-3xl font-bold text-amber-400">$100M+</p>
+            <p className="text-2xl sm:text-3xl font-bold text-amber-400">$100M+</p>
             <p className="text-slate-400 text-xs mt-1 tracking-wide uppercase">Revenue Enabled</p>
           </div>
           <div className="text-center">
-            <p className="text-3xl font-bold text-amber-400">3</p>
+            <p className="text-2xl sm:text-3xl font-bold text-amber-400">3</p>
             <p className="text-slate-400 text-xs mt-1 tracking-wide uppercase">Global Regions</p>
           </div>
         </div>
