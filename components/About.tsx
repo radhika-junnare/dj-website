@@ -4,9 +4,9 @@ export default function About() {
   return (
     <section id="about" className="py-24 bg-white">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="grid md:grid-cols-3 gap-12 items-start">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-start">
           {/* Col 1: photo + quick profile */}
-          <div className="flex flex-col gap-6 items-center md:items-stretch w-full">
+          <div className="flex flex-col gap-6 items-center md:items-stretch w-full min-w-0">
             <div className="flex flex-col items-center gap-4">
               <div className="relative w-56 h-56 rounded-full overflow-hidden ring-4 ring-amber-400 ring-offset-4 ring-offset-white">
                 <Image
@@ -58,7 +58,7 @@ export default function About() {
           </div>
 
           {/* Col 2-3: text */}
-          <div className="md:col-span-2">
+          <div className="md:col-span-2 min-w-0">
             <p className="text-amber-500 text-sm font-semibold tracking-[0.3em] uppercase mb-3">
               About
             </p>
