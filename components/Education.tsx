@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const education = [
   {
     institution: "Stanford Graduate School of Business",
@@ -5,13 +7,15 @@ const education = [
     year: "Class of 2025",
     description: "Leadership, Strategy, Innovation & Digital Transformation",
     highlight: true,
+    logo: "/stanford-logo.png",
   },
   {
     institution: "Pune University",
     degree: "Bachelor of Engineering",
-    year: "",
+    year: "Class of 1994",
     description: "Instrumentation Engineering",
     highlight: false,
+    logo: "/pune-university-logo.png",
   },
 ];
 
@@ -23,7 +27,7 @@ export default function Education() {
           <p className="text-amber-500 text-sm font-semibold tracking-[0.3em] uppercase mb-3">
             Background
           </p>
-          <h2 className="text-4xl font-bold text-slate-900">Education & Certifications</h2>
+          <h2 className="text-4xl font-bold text-slate-900">Education</h2>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
@@ -36,18 +40,26 @@ export default function Education() {
                   : "bg-slate-50 border-slate-100"
               }`}
             >
-              {edu.highlight && (
-                <span className="inline-block text-xs font-semibold text-amber-400 bg-amber-400/10 px-3 py-1 rounded-full mb-4 tracking-wide uppercase">
-                  Featured
-                </span>
-              )}
-              <h3
-                className={`font-bold text-xl mb-1 ${
-                  edu.highlight ? "text-white" : "text-slate-900"
-                }`}
-              >
-                {edu.institution}
-              </h3>
+              <div className="flex items-center gap-4 mb-4">
+                {edu.logo && (
+                  <div className="bg-white rounded-xl p-2 flex-shrink-0">
+                    <Image
+                      src={edu.logo}
+                      alt={edu.institution}
+                      width={80}
+                      height={40}
+                      className="object-contain"
+                    />
+                  </div>
+                )}
+                <h3
+                  className={`font-bold text-xl ${
+                    edu.highlight ? "text-white" : "text-slate-900"
+                  }`}
+                >
+                  {edu.institution}
+                </h3>
+              </div>
               <p
                 className={`font-semibold mb-1 ${
                   edu.highlight ? "text-amber-400" : "text-amber-600"
@@ -56,11 +68,7 @@ export default function Education() {
                 {edu.degree}
               </p>
               {edu.year && (
-                <p
-                  className={`text-sm mb-3 ${
-                    edu.highlight ? "text-slate-400" : "text-slate-400"
-                  }`}
-                >
+                <p className={`text-sm mb-3 ${edu.highlight ? "text-slate-400" : "text-slate-400"}`}>
                   {edu.year}
                 </p>
               )}
