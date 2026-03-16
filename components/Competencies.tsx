@@ -35,7 +35,7 @@ const competencies = [
     icon: "🚀",
     details: [
       "Led NPI launches and cross-functional teams to accelerate adoption",
-      "Designed SaaS-based RFID solutions for global retailers",
+      "Supported sales enablement of SaaS-based RFID solutions across global retail",
       "Drove multi-country partner engagement for new product rollouts",
     ],
   },
@@ -61,9 +61,9 @@ const competencies = [
     title: "Digital Transformation & Enterprise SaaS",
     icon: "⚡",
     details: [
-      "Designed SaaS-based RFID solutions adopted across global retail",
+      "Supported sales enablement of SaaS-based RFID solutions across global retail",
       "Led ERP and enterprise technology adoption across verticals",
-      "Stanford GSB LEAD — deepening expertise in digital transformation",
+      "Furthering expertise in digital transformation through the Stanford GSB LEAD program",
     ],
   },
   {

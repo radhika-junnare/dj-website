@@ -35,7 +35,7 @@ export default function About() {
                 { label: "Email", value: "dnyanesh.junnare@gmail.com" },
                 { label: "LinkedIn", value: "linkedin.com/in/dnyanesh-junnare", isLink: true, href: "https://www.linkedin.com/in/dnyanesh-junnare" },
                 { label: "Education", value: "Stanford GSB LEAD | B.E. Instrumentation Engg." },
-                { label: "Expertise", value: "RFID · Enterprise SaaS · ERP · Retail Tech" },
+                { label: "Expertise", value: "Retail Tech · Enterprise SaaS · ERP" },
               ].map((item) => (
                 <li key={item.label} className="flex gap-4">
                   <span className="text-amber-500 font-semibold text-sm w-24 shrink-0">{item.label}</span>
@@ -68,8 +68,8 @@ export default function About() {
             <p className="text-slate-600 leading-relaxed mb-5">
               Strategic executive with <strong>25+ years of experience</strong> driving business development,
               sales enablement, and global go-to-market strategy. Proven record of enabling double-digit
-              growth, building high-performing teams, and leading cross-regional mandates across{" "}
-              <strong>APAC, EMEA & the Americas</strong>.
+              growth, building high-performing teams, and leading cross-regional mandates{" "}
+              <strong>across the globe</strong>.
             </p>
             <p className="text-slate-600 leading-relaxed mb-5">
               Currently enrolled in the <strong>Stanford GSB LEAD program</strong>, strengthening expertise

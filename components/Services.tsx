@@ -51,23 +51,35 @@ export default function Services() {
         {/* CTA to external consulting site */}
         <div className="bg-slate-900 rounded-2xl p-10 text-center">
           <p className="text-amber-400 text-xs font-semibold tracking-[0.3em] uppercase mb-3">
-            Consulting Practice
+            Consulting Partners
           </p>
-          <h3 className="text-white text-2xl font-bold mb-3">Reverse Flow</h3>
-          <p className="text-slate-400 text-sm max-w-md mx-auto mb-7 leading-relaxed">
-            Visit the official consulting website to explore service offerings, case studies, and get in touch directly.
+          <p className="text-slate-400 text-sm max-w-lg mx-auto mb-8 leading-relaxed">
+            Dnyanesh is a partner at Reverse Flow and koPn Technologies — independent consulting firms specialising in advisory and technology enablement services.
           </p>
-          <a
-            href="https://reverseflow.co.uk"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-amber-400 text-slate-900 font-semibold px-8 py-3 rounded-full hover:bg-amber-300 transition-colors text-sm"
-          >
-            Visit reverseflow.co.uk
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-            </svg>
-          </a>
+          <div className="flex flex-wrap justify-center gap-4">
+            <a
+              href="https://reverseflow.co.uk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-amber-400 text-slate-900 font-semibold px-8 py-3 rounded-full hover:bg-amber-300 transition-colors text-sm"
+            >
+              Visit reverseflow.co.uk
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
+            <a
+              href="https://kopn.co.uk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-slate-700 text-white font-semibold px-8 py-3 rounded-full hover:bg-slate-600 transition-colors text-sm border border-slate-600"
+            >
+              Visit kopn.co.uk
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
     </section>

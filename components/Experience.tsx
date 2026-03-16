@@ -1,5 +1,19 @@
 const experiences = [
   {
+    company: "Sanglob",
+    location: "Pune, India",
+    tenure: "Feb 2026 – Present",
+    roles: [
+      {
+        title: "VP Sales & Marketing (Consulting)",
+        period: "Feb 2026 – Present",
+        bullets: [
+          "Providing strategic sales and marketing consultancy to drive business growth.",
+        ],
+      },
+    ],
+  },
+  {
     company: "Sensormatic by Johnson Controls, Inc.",
     location: "California, USA",
     tenure: "Oct 2008 – Jan 2025",
