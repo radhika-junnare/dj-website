@@ -10,7 +10,7 @@ export default function About() {
             <div className="flex flex-col items-center gap-4">
               <div className="relative w-56 h-56 rounded-full overflow-hidden ring-4 ring-amber-400 ring-offset-4 ring-offset-white">
                 <Image
-                  src="/profile.png"
+                  src="/profile2.png"
                   alt="Dnyanesh Junnare"
                   fill
                   className="object-cover"
